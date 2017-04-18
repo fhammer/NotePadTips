@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tc="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="400dp">
+
+    <play.fzh.bj.notepad.view.ProgressView
+        android:id="@+id/taskView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        tc:circleColor="#ff0000"
+        tc:radius="100dip"
+        tc:ringBgColor="@color/colorPrimary"
+        tc:ringColor="#00ff00"
+        tc:speed="1"
+        tc:strokeWidth="5dip"/>
+</RelativeLayout>
